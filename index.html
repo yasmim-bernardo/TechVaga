@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVagas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="imagens/favicon.ico">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    
+    <header class="header">
+
+       <div class="logotipo">
+        <img class="logo" src="imagens/logotechvagastranparente.png" alt="logotipo TechVagas">
+       </div> 
+
+
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+        ☰
+        </button>
+
+   
+
+
+        <nav class="nav">
+
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#vagas">Vagas</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+            </ul>
+
+
+        </nav>
+            
+
+    </header>
+
+    <main> 
+
+        <section class="banner">
+            
+        <img src="imagens/banner.png" alt="Banner TechVagas">
+     
+
+        </section>
+       
+
+           <section class="buscar-vagas">
+            
+        <!--Buscar vagas-->
+
+         <div class="filter-item">
+            <input type="search" placeholder="Cargo , Competência...">
+         </div>
+
+         
+         <!--Localidade-->
+
+         <div class="filter-item">
+            <input type="search" placeholder="Cidade , Estado , País...">
+         </div>
+
+          <!--botão buscar -->
+
+
+         <div class="filter-item">
+        <button type="button">Pesquisar</button>
+        </div>
+
+
+
+
+        </section>
+
+        
+         
+         
+        <section class="filters-bar">
+
+
+         <!--Últimas 24 horas -->
+
+         <div class="filter-item">
+            <h2>Filtros:</h2>
+             <select>
+            <option value="">Últimas 24 horas</option>
+            <option value="estagio">Última semana</option>
+            <option value="junior">Último mês</option>
+            <option value="pleno">A qualquer momento</option>
+            <option value="senior">Últimos 3 dias</option>
+            </select>
+
+         </div>
+
+         <!-- Nível de experiência -->
+         <div class="filter-item">
+            <select>
+            <option value="">Nível de experiência</option>
+            <option value="estagio">Estágio</option>
+            <option value="junior">Júnior</option>
+            <option value="pleno">Pleno</option>
+            <option value="senior">Sênior</option>
+            </select>
+        </div>
+
+
+        <!-- Empresa -->
+         <div class="filter-item">
+            <select>
+                <option value="">Empresa</option>
+                <option value="ibm">IBM</option>
+                <option value="hotmart">Hotmart</option>
+                <option value="bairesdev">BairesDev</option>
+                <option value="inter">Inter</option>
+                <option value="bradesco">Bradesco</option>
+                <option value="nubank">Nubank</option>
+                <option value="santander">Santander</option>
+            </select>
+        </div>
+
+
+        <!-- Tipo de vaga  -->
+         <div class="filter-item">
+            <select>
+            <option value="">Remoto</option>
+            <option value="estagio">Híbrido</option>
+            <option value="junior">Presencial</option>
+            </select>
+        </div>    
+
+
+         
+        <!-- filtar -->
+            <div class="filter-item">
+            <button type="button">Filtrar</button>
+            </div>
+
+
+        
+        <!-- Redefinir -->
+
+        <div class="filter-item">
+        <button type="reset" id="reset-btn">Redefinir</button>
+        </div>
+
+
+
+        </section>
+
+        <section id="vagas" class="vagas">
+
+            <div class="card-vaga">
+                <h2 class="title-card">
+                    Vaga de Front-End
+                </h2>
+
+                <span>Nome da Empresa:</span>
+
+                <p>Santander vagas</p>
+
+                <span >Detalhes da vaga :</span>
+
+                <p> descrição da vaga </p>
+
+                <span>Nível: </span>
+
+                <p>
+                    Júnior
+
+                </p>
+
+                <span>Tipo: </span>
+
+                <p>
+                    Remoto
+
+                </p>
+
+                <button type="button" class="btn-cta">Candidatar-se</button>
+
+
+
+            </div>
+
+
+        </section>
+
+
+        
+        <section id="vagas" class="vagas">
+
+            <div class="card-vaga">
+                <h2 class="title-card">
+                    Vaga de Front-End
+                </h2>
+
+                <span>Nome da Empresa:</span>
+
+                <p>Santander vagas</p>
+
+                <span >Detalhes da vaga :</span>
+
+                <p> descrição da vaga </p>
+
+                <span>Nível: </span>
+
+                <p>
+                    Júnior
+
+                </p>
+
+                <span>Tipo: </span>
+
+                <p>
+                    Remoto
+
+                </p>
+
+                <button type="button" class="btn-cta">Candidatar-se</button>
+
+
+
+            </div>
+
+
+        </section>
+
+
+        
+        <section id="vagas" class="vagas">
+
+            <div class="card-vaga">
+                <h2 class="title-card">
+                    Vaga de Front-End
+                </h2>
+
+                <span>Nome da Empresa:</span>
+
+                <p>Santander vagas</p>
+
+                <span >Detalhes da vaga :</span>
+
+                <p> descrição da vaga </p>
+
+                <span>Nível: </span>
+
+                <p>
+                    Júnior
+
+                </p>
+
+                <span>Tipo: </span>
+
+                <p>
+                    Remoto
+
+                </p>
+
+                <button type="button" class="btn-cta">Candidatar-se</button>
+
+
+
+            </div>
+
+
+        </section>
+
+        <section id="sobre" class="sobre">
+
+            <h2>Sobre a TechVagas</h2>
+
+          <p>
+            A <span>TechVagas</span> foi criada em 2026 com o objetivo de ajudar pessoas iniciantes na área de tecnologia a conquistarem suas primeiras oportunidades no mercado de trabalho.
+        </p>
+
+
+
+
+
+        </section>
+
+
+    </main>
+
+   
+
+    <footer>
+
+        &copy;Desenvolvido por <a href="https://github.com/yasmim-bernardo" target="_blank">Yasmim Bernardo</a>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
